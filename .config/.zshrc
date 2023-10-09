@@ -6,6 +6,7 @@
 #  ,88"          `"Y8ba,   88       88  88          8b          
 # 88"           aa    ]8I  88       88  88          "8a,   ,aa  
 # 888888888888  `"YbbdP"'  88       88  88           `"Ybbd8"'  
+
 # By Sa'eed AL-Habal                           
 # Github: https://github.com/abo-ghassan
 
@@ -19,7 +20,7 @@ alias ss='cd /usr/local/bin && exa -a'
 alias cat='bat --plain --number --color=always --italic-text=always --theme=OneHalfDark'
 alias feh='feh -dF'
 alias p='python'
-## Github:
+# Github:
 alias gc='git clone'
 alias gcm='git commit -m'
 alias gadd='git add *'

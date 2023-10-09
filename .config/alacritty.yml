@@ -1,0 +1,78 @@
+colors:
+
+  # Default colors
+  primary:
+    background: '#121212'
+    foreground: '#c8c8c8'
+    bright_foreground: '#ffffff'
+
+  # Cursor colors
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+  vi_mode_cursor:
+    text: CellBackground
+    cursor: CellForeground
+
+  # Search colors
+  search:
+    matches:
+      foreground: '#191919'
+      background: '#c8cc86'
+    focused_match:
+      foreground: '#191919'
+      background: '#d9c793'
+
+
+  footer_bar:
+    background: '#302e31'
+    foreground: '#dcefff'
+
+
+  hints:
+    start:
+      foreground: '#302e31'
+      background: '#d9c793'
+    end:
+      foreground: '#d9c793'
+      background: '#302e31'
+
+
+  line_indicator:
+    foreground: None
+    background: None
+
+  # Selection Colors
+  selection:
+    text: CellForeground
+    background: '#302e31'
+
+  normal: # Normal colors
+    black: '#211f21'
+    red: '#7b3e59'
+    magenta: '#553976'
+    yellow: '#ae9f76'
+    blue: '#3f6cad'
+    green: '#798347'
+    cyan: '#416680'
+    white: '#adc4e3'
+  bright: # Bright colors
+    black: '#302e31'
+    red: '#a55377'
+    magenta: '#8853c7'
+    yellow: '#d9c793'
+    blue: '#2f88ff'
+    green: '#c8cc86'
+    cyan: '#6dabd6'
+    white: '#dcefff'
+
+# Text Config
+font:
+  normal:
+    family: JetBrains Mono
+    style: Regular
+  bold:
+    family: JetBrains Mono
+  italic:
+    family: JetBrains Mono
+  size: 13
